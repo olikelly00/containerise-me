@@ -13,3 +13,15 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello, world!"
+
+
+# linting
+
+  lint_my_code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: lint the code in my repo
+        run: next lint
+# testing
+# auditing
