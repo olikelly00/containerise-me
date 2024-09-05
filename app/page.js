@@ -70,7 +70,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates HERE <span>-&gt;</span>
+            Templates RIGHT HERE RIGHT NOW <span>-&gt;</span>
           </h2>
           <p>Explore starter templates for Next.js.</p>
         </a>
