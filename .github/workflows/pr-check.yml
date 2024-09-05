@@ -1,0 +1,15 @@
+name: Hello World Workflow
+
+# Triggers the workflow on any push event to the repository
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello World
+        run: echo "Hello, world!"
