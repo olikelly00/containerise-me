@@ -2,7 +2,7 @@ name: Hello World Workflow
 
 # Triggers the workflow on any push event to the repository
 on:
-  push:
+  pull_request:
     branches:
       - main
 
