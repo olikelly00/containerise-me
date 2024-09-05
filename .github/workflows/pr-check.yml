@@ -33,5 +33,23 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
-# testing
+
 # auditing
+
+  audit_my_code:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22"
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run audit
+        run: npm run audit
