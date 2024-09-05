@@ -4,6 +4,7 @@ import Header from "./src/components/components";
 
 export default function Home() {
   console.error("HIYAA")
+  console.error("HIYAA")
   return (
     <main className={styles.main}>
       <div className={styles.description}>
