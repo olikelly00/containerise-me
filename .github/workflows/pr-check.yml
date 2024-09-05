@@ -21,6 +21,6 @@ jobs:
 
     steps:
       - name: lint the code in my repo
-        run: next lint
+        run: npm run lint
 # testing
 # auditing
