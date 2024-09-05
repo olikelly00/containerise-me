@@ -34,7 +34,7 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
-# auditing
+  # auditing
 
   audit_my_code:
     runs-on: ubuntu-latest
@@ -52,4 +52,4 @@ jobs:
         run: npm install
 
       - name: Run audit
-        run: npm run audit
+        run: npm audit
