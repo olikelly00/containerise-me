@@ -14,8 +14,7 @@ jobs:
       - name: Print Hello World
         run: echo "Hello, world!"
 
-
-# linting
+  # linting
 
   lint_my_code:
     runs-on: ubuntu-latest
