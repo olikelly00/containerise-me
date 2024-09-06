@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Header from "./src/components/components";
 
 export default function Home() {
-  console.error('Hey')
+  console.error("Hey");
   return (
     <main className={styles.main}>
       <div className={styles.description}>
